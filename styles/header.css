@@ -3,6 +3,11 @@
   display: flex;
   justify-content: space-between;
   border-bottom:1px solid rgb(163, 163, 163) ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
   z-index: 1;
 }
 
@@ -108,7 +113,7 @@ width: 0;
   border-radius: 10px;
   position: absolute;
   top: -2px;
-  right: -5px;
+  right: -8px;
   font-size: 11px;
   padding: 2px 4px;
 }
@@ -125,8 +130,8 @@ width: 0;
   justify-content: center;
   align-items: center;
 }
-p{
+/* p{
   text-align: center;
   
-}
+} */
 
