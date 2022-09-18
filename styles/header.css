@@ -134,4 +134,49 @@ width: 0;
   text-align: center;
   
 } */
+.tooltip{
 
+}
+
+.searchBtn,
+.voiceSearchBtn,
+.uploadIconContainer,
+.youtubeIconContainer,
+.notificationsIconContainer,
+.profileIconContainer{
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+
+.searchBtn .tooltip,
+.voiceSearchBtn .tooltip,
+.uploadIconContainer .tooltip,
+.youtubeIconContainer .tooltip,
+.notificationsIconContainer .tooltip,
+.profileIconContainer .tooltip{
+  position: absolute;
+  bottom:-30px;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 1s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.searchBtn:hover .tooltip,
+.voiceSearchBtn:hover .tooltip,
+.uploadIconContainer:hover .tooltip,
+.youtubeIconContainer:hover .tooltip,
+.notificationsIconContainer:hover .tooltip,
+.profileIconContainer:hover .tooltip
+{
+  opacity: 1;
+  
+}
