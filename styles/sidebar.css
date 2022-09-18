@@ -9,6 +9,7 @@
   z-index: 2;
 }
 
+
 .sidebarLink{
   height: 72px;
   display: flex;
@@ -29,4 +30,35 @@
 
 .sidebarLink div{
   font-size: 10px;
+}
+
+@media (min-width: 1200px) {
+  .sidebar{
+    width: 220px;
+  }
+
+  .sidebarLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebarLink img{
+    height: 28px;
+    margin-right: 8px;
+  }
+
+  .sidebarLink div{
+  font-size: 10px;
+}
+
+.sidebarLink div{
+  font-size: 13px;
+}
+
+body{
+  padding-left: 250px;
+  padding-right: 125px;
+}
 }
