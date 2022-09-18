@@ -15,44 +15,52 @@
   <link rel="stylesheet" href="styles/video.css">
   
 </head>
-<body>
+  <body>
 
   <!-- HEADER -->
   <header class="header">
     <div class="leftSection">
-      <img class="hamburgerIcon" src="icons/hamburger-menu.svg" alt="">
+      <img 
+      class ="hamburgerIcon" src="icons/hamburger-menu.svg" alt="">
 
-      <img class="youtubeLogo" src="icons/youtube-logo.svg" alt="">
+      <img  class="youtubeLogo" src="icons/youtube-logo.svg" alt="">
     </div>
     <div class="middleSection">
       <input class="searchBar" type="text" placeholder="Search">
       <button class="searchBtn">
         <img class="searchIcon" src="icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
       </button>
       <button class="voiceSearchBtn">
         <img class="voiceSearchIcon" src="icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search With Your Voice</div>
       </button>
+      
     </div>
     <div class="rightSection">
       <div class="uploadIconContainer">
         <img class="uploadIcon" src="icons/upload.svg" alt="">
+        <div class="tooltip">Search</div>
       </div>
       <div class="youtubeIconContainer">
         <img class="youtubeIcon" src="icons/youtube-apps.svg" alt="">
+        <div class="tooltip">Youtube Apps</div>
       </div>
       <div class="notificationsIconContainer">
         <img class="notificationsIcon" src="icons/notifications.svg" alt="">
+        <div class="tooltip">Notifications</div>
 
         <div class="notificationCount">9+</div>
       </div>
       <div class="profileIconContainer">
         <p class="profileIcon">G</p>
+        <div class="tooltip">Profile</div>
       </div>
     </div>
   </header>
 
   <!-- SIDEBAR -->
-  <div class="sidebar">
+  <nav class="sidebar">
     <div class="sidebarLink">
       <img src="icons/home.svg" alt="">
       <div>Home</div>
@@ -77,13 +85,16 @@
       <img src="icons/library.svg" alt="">
       <div>library</div>
     </div>
-  </div>
+  </nav>
 
   <!-- Video contents -->
   <div class="videoGrid">
     <div class="videoPreview">
       <div class="thumbnailRow">
-        <img class="thumbnail" src="/thumbnails/thumbnail-8.png" alt="">
+        <a href="https://gloryokafor.hashnode.dev/designing-a-tech-career-roadmap">
+          <img class="thumbnail" src="/thumbnails/thumbnail-8.png" alt="">
+        </a>
+        
       </div>
       <div class="videoInfoContainer">
         <div class="channelPicture">
@@ -100,7 +111,7 @@
         </p>
 
         <p class="videoStats">
-          3.4M views &#8226; 6 month ago
+          3.4M views &#8226; 10 days ago
         </p>
 
         </div>
@@ -110,7 +121,9 @@
     </div>
     <div class="videoPreview">
       <div class="thumbnailRow">
-        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" alt="">
+        <a href="https://youtu.be/n2RNcPRtAiY">
+          <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" alt="">
+        </a>
       </div>
       <div class="videoInfoContainer">
         <div class="channelPicture">
@@ -137,11 +150,11 @@
     </div>
     <div class="videoPreview">
       <div class="thumbnailRow">
-        <img class="thumbnail" src="/thumbnails/thumbnail-3.webp" alt="">
+        <img class="thumbnail" src="/thumbnails/thumbnail-2.webp" alt="">
       </div>
       <div class="videoInfoContainer">
         <div class="channelPicture">
-          <img class="profileProfile" src="/channel Profile/channel-3.jpeg" alt="">
+          <img class="profileProfile" src="/channel Profile/channel-2.jpeg" alt="">
         </div>
 
         <div class="videoInfo">
@@ -164,7 +177,9 @@
     </div>
     <div class="videoPreview">
       <div class="thumbnailRow">
-        <img class="thumbnail" src="/thumbnails/thumbnail-4.webp" alt="">
+        <a href="https://youtu.be/n2RNcPRtAiY">
+          <img class="thumbnail" src="/thumbnails/thumbnail-4.webp" alt="">
+        </a>
       </div>
       <div class="videoInfoContainer">
         <div class="channelPicture">
@@ -191,7 +206,10 @@
     </div>
     <div class="videoPreview">
       <div class="thumbnailRow">
-        <img class="thumbnail" src="/thumbnails/thumbnail-5.webp" alt="">
+        <a href="https://youtu.be/86CQq3pKSUw">
+          <img class="thumbnail" src="/thumbnails/thumbnail-5.webp" alt="">
+        </a>
+        
       </div>
       <div class="videoInfoContainer">
         <div class="channelPicture">
@@ -200,11 +218,11 @@
 
         <div class="videoInfo">
           <p class="videoTitle">
-          Talking Tech and AI with Google CEO Sundar Pichai!
+            Kadane's Algorithm to Maximum Sum Subarray Problem
         </p>
 
         <p class="videoAuthor">
-          Marques Brownlee
+          CS Dojo
         </p>
 
         <p class="videoStats">
@@ -272,11 +290,11 @@
     </div>
     <div class="videoPreview">
       <div class="thumbnailRow">
-        <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" alt="">
+        <img class="thumbnail" src="/thumbnails/thumbnail-3.webp" alt="">
       </div>
       <div class="videoInfoContainer">
         <div class="channelPicture">
-          <img class="profileProfile" src="/channel Profile/channel-1.jpeg" alt="">
+          <img class="profileProfile" src="/channel Profile/channel-3.jpeg" alt="">
         </div>
 
         <div class="videoInfo">
@@ -407,5 +425,7 @@
     </div>
 
   </div>
+
 </body>
 </html>
+

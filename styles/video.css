@@ -11,6 +11,7 @@
 
 .thumbnail{
   width: 100%;
+  cursor: pointer;
 }
 
 .thumbnailRow{
@@ -44,6 +45,7 @@
   font-weight: 500;
   line-height: 21px;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .videoAuthor{
@@ -88,6 +90,20 @@
   .videoGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .videoTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .videoAuthor{
+    font-size: 14px;
+  }
+  
+  .videoStats{
+    font-size: 14px;
   }
 }
 
